@@ -61,7 +61,7 @@
             button2.Name = "button2";
             button2.Size = new Size(97, 72);
             button2.TabIndex = 1;
-            button2.Text = "7\r\n\r\n";
+            button2.Text = "7";
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click_1;
             // 
@@ -167,7 +167,7 @@
             button11.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button11.Location = new Point(18, 407);
             button11.Name = "button11";
-            button11.Size = new Size(135, 72);
+            button11.Size = new Size(211, 72);
             button11.TabIndex = 10;
             button11.Text = "0";
             button11.UseVisualStyleBackColor = false;
@@ -177,9 +177,9 @@
             // 
             button12.BackColor = Color.Silver;
             button12.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button12.Location = new Point(207, 407);
+            button12.Location = new Point(252, 407);
             button12.Name = "button12";
-            button12.Size = new Size(142, 72);
+            button12.Size = new Size(97, 72);
             button12.TabIndex = 11;
             button12.Text = ".";
             button12.UseVisualStyleBackColor = false;
