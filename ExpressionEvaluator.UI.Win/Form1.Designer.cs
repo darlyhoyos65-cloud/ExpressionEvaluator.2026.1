@@ -307,20 +307,21 @@
             // 
             // TxtPlay
             // 
+            TxtPlay.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             TxtPlay.BackColor = Color.Lime;
             TxtPlay.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             TxtPlay.Location = new Point(18, 48);
             TxtPlay.Name = "TxtPlay";
-            TxtPlay.Size = new Size(744, 39);
+            TxtPlay.Size = new Size(733, 39);
             TxtPlay.TabIndex = 22;
             TxtPlay.Click += TxtPlay_Click;
             TxtPlay.TextChanged += TxtPlay_TextChanged;
             // 
-            // FuctionEvaluator
+            // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(851, 491);
+            ClientSize = new Size(768, 491);
             Controls.Add(TxtPlay);
             Controls.Add(button22);
             Controls.Add(button21);
@@ -343,7 +344,7 @@
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
-            Name = "FuctionEvaluator";
+            Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
             ResumeLayout(false);
